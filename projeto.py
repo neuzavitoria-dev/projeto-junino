@@ -5,24 +5,22 @@ perguntas_sorteadas = random.sample(perguntas, 10)
 
 pontos = 0
 
+print("Sejam bem-vindos ao Arraiá do cumpadi python! ")
+print("Vamos testar o seu conhecimento junino, sô! ")
+
 for perguntas in perguntas_sorteadas:
     print("\n" + perguntas["pergunta"])
     
+    for i, alternativa in enumerate(perguntas["alternativas"], start=1):
+        print(f"{i} - {alternativa}")
 
-print("Sejam bem-vindos ao Arraiá do cumpadi python! ")
+    resposta = int(input("digite sua resposta: "))
 
-print("Vamos testar o seu conhecimento junino, sô! ")
-
-for i, alternativa in enumerate(perguntas["alternativas"], start=1):
-    print(f"{i} - {alternativa}")
-
-resposta = int(input("digite sua resposta: "))
-
-if resposta == perguntas["resposta"]:
-    print("acertou")
-    pontos  += 10
-else:
-    print("errou")
+    if resposta == perguntas["resposta"]:
+        print("acertou ")
+        pontos  += 10
+    else:
+        print("errou")
 
 print("\nFim do jogo!")
 print(f"Sua pontuação foi: {pontos}")
