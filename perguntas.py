@@ -1,312 +1,190 @@
 perguntas = [
 
-# ==========================
-# SÃO JOÃO
-# ==========================
+# =================== SÃO JOÃO ===================
 
 {
-    "pergunta": "Qual dança é a mais tradicional das festas juninas?",
-    "alternativas": ["Forró", "Samba", "Frevo", "Axé", "Rock"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual santo é comemorado no dia 24 de junho?",
-    "alternativas": ["São Pedro", "Santo Antônio", "São João", "São José", "São Paulo"],
-    "resposta": 3
-},
-
-{
-    "pergunta": "Qual alimento é feito principalmente de milho?",
-    "alternativas": ["Pamonha", "Pizza", "Lasanha", "Hambúrguer", "Macarrão"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual instrumento é muito usado no forró?",
-    "alternativas": ["Violino", "Acordeão", "Harpa", "Piano", "Saxofone"],
+    "pergunta": "1. Qual dança é tradicional das festas juninas?",
+    "alternativas": ["Frevo", "Quadrilha", "Samba", "Forró eletrônico", "Axé"],
     "resposta": 2
 },
 
 {
-    "pergunta": "Qual cidade é conhecida por realizar o Maior São João do Mundo?",
-    "alternativas": ["Salvador", "Fortaleza", "Campina Grande", "Recife", "Natal"],
+    "pergunta": "2. Qual alimento é feito com milho?",
+    "alternativas": ["Pizza", "Pamonha", "Hambúrguer", "Macarrão", "Lasanha"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "3. Em qual mês normalmente acontecem as festas juninas?",
+    "alternativas": ["Janeiro", "Março", "Junho", "Outubro", "Dezembro"],
     "resposta": 3
 },
 
 {
-    "pergunta": "Qual destes é um doce típico das festas juninas?",
-    "alternativas": ["Canjica", "Sorvete", "Pudim", "Gelatina", "Mousse"],
+    "pergunta": "4. Qual destes santos é comemorado nas festas juninas?",
+    "alternativas": ["São Pedro", "São Francisco", "São Jorge", "São Bento", "São Lucas"],
     "resposta": 1
 },
 
 {
-    "pergunta": "Qual brincadeira é comum nas festas juninas?",
-    "alternativas": ["Pescaria", "Boliche", "Vôlei", "Tênis", "Basquete"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Como é chamada a dança organizada em pares nas festas juninas?",
-    "alternativas": ["Quadrilha", "Frevo", "Carimbó", "Pagode", "Samba"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual destes faz parte da decoração junina?",
-    "alternativas": ["Bandeirinhas", "Árvore de Natal", "Balões de festa", "Máscaras", "Ovos de Páscoa"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual é o principal mês das festas juninas?",
-    "alternativas": ["Maio", "Junho", "Julho", "Agosto", "Setembro"],
+    "pergunta": "5. O que normalmente acontece ao redor da fogueira?",
+    "alternativas": ["Corrida", "Quadrilha", "Cinema", "Futebol", "Desfile"],
     "resposta": 2
 },
 
-# ==========================
-# INCLUSÃO
-# ==========================
+{
+    "pergunta": "6. Qual roupa é comum nas festas juninas?",
+    "alternativas": ["Terno", "Fantasia de herói", "Roupa caipira", "Uniforme", "Roupa de praia"],
+    "resposta": 3
+},
 
 {
-    "pergunta": "O que significa inclusão?",
-    "alternativas": [
-        "Garantir que todas as pessoas possam participar",
-        "Separar grupos",
-        "Excluir pessoas",
-        "Criar diferenças",
-        "Ignorar necessidades"
-    ],
+    "pergunta": "7. Qual instrumento é muito usado no forró?",
+    "alternativas": ["Violino", "Acordeon (sanfona)", "Harpa", "Flauta", "Violoncelo"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "8. Qual destas comidas é típica do São João?",
+    "alternativas": ["Sushi", "Canjica", "Pizza", "Sorvete", "Lasanha"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "9. A fogueira simboliza qual festa tradicional?",
+    "alternativas": ["São João", "Carnaval", "Natal", "Páscoa", "Ano Novo"],
     "resposta": 1
 },
 
 {
-    "pergunta": "Uma atitude inclusiva é:",
-    "alternativas": [
-        "Respeitar todas as pessoas",
-        "Fazer piadas ofensivas",
-        "Excluir colegas",
-        "Discriminar alguém",
-        "Ignorar quem precisa"
-    ],
+    "pergunta": "10. O forró é um ritmo típico de qual região do Brasil?",
+    "alternativas": ["Sul", "Centro-Oeste", "Sudeste", "Nordeste", "Norte"],
+    "resposta": 4
+},
+
+# =================== INCLUSÃO ===================
+
+{
+    "pergunta": "11. O que significa inclusão?",
+    "alternativas": ["Excluir pessoas", "Garantir participação de todos", "Separar grupos", "Ignorar diferenças", "Criar barreiras"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "12. Uma rampa facilita o acesso para:",
+    "alternativas": ["Apenas crianças", "Pessoas com mobilidade reduzida", "Somente idosos", "Animais", "Motoristas"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "13. Libras é a língua utilizada principalmente por:",
+    "alternativas": ["Turistas", "Pessoas surdas", "Estrangeiros", "Crianças", "Idosos"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "14. Tratar todas as pessoas com respeito é uma atitude de:",
+    "alternativas": ["Preconceito", "Educação", "Desigualdade", "Exclusão", "Discriminação"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "15. Inclusão significa que todos devem:",
+    "alternativas": ["Ter as mesmas oportunidades", "Ser iguais fisicamente", "Pensar igual", "Vestir igual", "Morar juntos"],
     "resposta": 1
 },
 
 {
-    "pergunta": "A acessibilidade ajuda:",
-    "alternativas": [
-        "Todas as pessoas a participarem dos espaços",
-        "Apenas algumas pessoas",
-        "Somente crianças",
-        "Somente idosos",
-        "Ninguém"
-    ],
+    "pergunta": "16. Um ambiente acessível permite:",
+    "alternativas": ["Dificultar o acesso", "Participação de todos", "Apenas visitantes", "Somente adultos", "Somente funcionários"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "17. Respeitar o tempo de aprendizagem de cada pessoa é uma forma de:",
+    "alternativas": ["Exclusão", "Inclusão", "Competição", "Punição", "Desinteresse"],
+    "resposta": 2
+},
+
+# =================== DIVERSIDADE ===================
+
+{
+    "pergunta": "18. Diversidade significa:",
+    "alternativas": ["Que todos são iguais", "Valorizar as diferenças", "Separar pessoas", "Excluir opiniões", "Ignorar culturas"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "19. O Brasil é conhecido por sua:",
+    "alternativas": ["Falta de culturas", "Diversidade cultural", "Pouca população", "Única tradição", "Ausência de costumes"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "20. Respeitar diferentes culturas ajuda a:",
+    "alternativas": ["Criar conflitos", "Promover convivência", "Aumentar preconceitos", "Separar pessoas", "Gerar violência"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "21. Cada pessoa possui:",
+    "alternativas": ["As mesmas características", "Diferenças e qualidades", "As mesmas opiniões", "A mesma cultura", "O mesmo jeito"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "22. Valorizar a diversidade significa:",
+    "alternativas": ["Aceitar diferentes pessoas", "Excluir quem é diferente", "Criticar culturas", "Fazer bullying", "Criar preconceitos"],
     "resposta": 1
 },
 
 {
-    "pergunta": "Uma escola inclusiva é aquela que:",
-    "alternativas": [
-        "Recebe todos os alunos",
-        "Escolhe quem pode estudar",
-        "Separa os estudantes",
-        "Aceita apenas alguns",
-        "Não respeita diferenças"
-    ],
+    "pergunta": "23. Uma sociedade diversa é:",
+    "alternativas": ["Formada por pessoas diferentes", "Sem culturas", "Sem opiniões", "Sem respeito", "Sem convivência"],
     "resposta": 1
 },
 
 {
-    "pergunta": "A Língua Brasileira de Sinais é conhecida como:",
-    "alternativas": ["LIBRAS", "Braille", "Morse", "Latim", "Tupi"],
+    "pergunta": "24. Conviver com pessoas diferentes nos ensina:",
+    "alternativas": ["Respeito", "Preconceito", "Violência", "Intolerância", "Exclusão"],
+    "resposta": 1
+},
+
+# =================== RESPEITO ÀS DIFERENÇAS ===================
+
+{
+    "pergunta": "25. Respeitar as diferenças significa:",
+    "alternativas": ["Aceitar as pessoas como são", "Julgar todos", "Ignorar pessoas", "Excluir colegas", "Fazer piadas ofensivas"],
     "resposta": 1
 },
 
 {
-    "pergunta": "Uma pessoa com deficiência deve ser tratada com:",
-    "alternativas": [
-        "Respeito e igualdade",
-        "Pena",
-        "Indiferença",
-        "Preconceito",
-        "Exclusão"
-    ],
+    "pergunta": "26. O bullying deve ser:",
+    "alternativas": ["Incentivado", "Combatido", "Ignorado", "Divulgado", "Aceito"],
+    "resposta": 2
+},
+
+{
+    "pergunta": "27. Uma atitude respeitosa é:",
+    "alternativas": ["Ouvir o próximo", "Zombar das diferenças", "Discriminar", "Ofender", "Excluir"],
     "resposta": 1
 },
 
 {
-    "pergunta": "Incluir significa:",
-    "alternativas": [
-        "Dar oportunidade para todos participarem",
-        "Separar pessoas",
-        "Criar grupos fechados",
-        "Excluir opiniões",
-        "Escolher apenas alguns"
-    ],
-    "resposta": 1
-},
-
-# ==========================
-# DIVERSIDADE
-# ==========================
-
-{
-    "pergunta": "Diversidade significa:",
-    "alternativas": [
-        "Respeitar as diferenças entre as pessoas",
-        "Todos serem iguais",
-        "Excluir opiniões",
-        "Ter apenas uma cultura",
-        "Separar grupos"
-    ],
-    "resposta": 1
+    "pergunta": "28. O respeito fortalece:",
+    "alternativas": ["Conflitos", "Brigas", "Amizades", "Desentendimentos", "Preconceitos"],
+    "resposta": 3
 },
 
 {
-    "pergunta": "O Brasil é conhecido por possuir:",
-    "alternativas": [
-        "Grande diversidade cultural",
-        "Uma única cultura",
-        "Nenhuma tradição",
-        "Poucas culturas",
-        "Apenas cultura estrangeira"
-    ],
-    "resposta": 1
+    "pergunta": "29. Quando alguém pensa diferente de você, o correto é:",
+    "alternativas": ["Ofender", "Respeitar a opinião", "Brigar", "Ignorar", "Humilhar"],
+    "resposta": 2
 },
 
 {
-    "pergunta": "Respeitar diferentes culturas significa:",
-    "alternativas": [
-        "Valorizar costumes diferentes",
-        "Criticar tradições",
-        "Proibir culturas",
-        "Fazer piadas",
-        "Ignorar diferenças"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Cada pessoa possui:",
-    "alternativas": [
-        "Características únicas",
-        "As mesmas opiniões",
-        "As mesmas habilidades",
-        "A mesma história",
-        "Os mesmos costumes"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "A diversidade torna a sociedade:",
-    "alternativas": [
-        "Mais rica em conhecimentos",
-        "Mais igual em tudo",
-        "Mais dividida",
-        "Sem cultura",
-        "Sem criatividade"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Conviver com pessoas diferentes nos ensina a:",
-    "alternativas": [
-        "Respeitar e aprender",
-        "Julgar",
-        "Excluir",
-        "Ignorar",
-        "Discriminar"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "A diversidade está presente:",
-    "alternativas": [
-        "Em todos os lugares",
-        "Somente nas escolas",
-        "Somente nas cidades",
-        "Somente no Brasil",
-        "Em poucos lugares"
-    ],
-    "resposta": 1
-},
-
-# ==========================
-# RESPEITO ÀS DIFERENÇAS
-# ==========================
-
-{
-    "pergunta": "Qual atitude demonstra respeito às diferenças?",
-    "alternativas": [
-        "Ouvir e respeitar opiniões diferentes",
-        "Fazer bullying",
-        "Excluir colegas",
-        "Discriminar pessoas",
-        "Espalhar preconceito"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Todas as pessoas merecem:",
-    "alternativas": [
-        "Respeito",
-        "Preconceito",
-        "Exclusão",
-        "Discriminação",
-        "Indiferença"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Quando alguém pensa diferente de você, o melhor é:",
-    "alternativas": [
-        "Respeitar a opinião",
-        "Brigar",
-        "Zombar",
-        "Ignorar",
-        "Ofender"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "O bullying é uma atitude:",
-    "alternativas": [
-        "Errada e desrespeitosa",
-        "Divertida",
-        "Educada",
-        "Correta",
-        "Necessária"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Ser gentil com as pessoas ajuda a criar:",
-    "alternativas": [
-        "Um ambiente acolhedor",
-        "Mais conflitos",
-        "Mais preconceito",
-        "Mais exclusão",
-        "Mais desrespeito"
-    ],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Respeitar as diferenças contribui para:",
-    "alternativas": [
-        "Uma convivência melhor",
-        "Mais preconceito",
-        "Mais exclusão",
-        "Mais conflitos",
-        "Mais intolerância"
-    ],
+    "pergunta": "30. O respeito às diferenças contribui para:",
+    "alternativas": ["Uma convivência melhor", "Mais preconceito", "Mais violência", "Menos diálogo", "Exclusão"],
     "resposta": 1
 }
 
