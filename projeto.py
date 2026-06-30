@@ -17,25 +17,25 @@ for perguntas in perguntas_sorteadas:
     resposta = int(input("digite sua resposta: "))
 
     if resposta == perguntas["resposta"]:
-        print("acertou ")
+        print("✅ Acertou! ")
         pontos  += 10
     else:
-        print("errou")
+        print("❌ Errou!")
 
 print("\nFim do jogo!")
 print(f"Sua pontuação foi: {pontos}")
 
 if pontos >= 90:
-    print("Mestre Junino!")
+    print("🏆 Mestre Junino!")
 
 elif pontos >= 70:
-    print("Arretado!")
+    print("🌽 Arretado!")
 
 elif pontos >= 50:
-    print("Dançarino!")
+    print("🎉 Dançarino!")
 
 else:
-    print("Continue treinando!")
+    print("🤠 Continue treinando!")
 
 
     
