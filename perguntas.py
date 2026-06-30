@@ -1,8 +1,12 @@
 perguntas = [
 
+# ==========================
+# SÃO JOÃO
+# ==========================
+
 {
     "pergunta": "Qual dança é a mais tradicional das festas juninas?",
-    "alternativas": ["Forró", "Samba", "Frevo", "Axé", "Funk"],
+    "alternativas": ["Forró", "Samba", "Frevo", "Axé", "Rock"],
     "resposta": 1
 },
 
@@ -14,169 +18,295 @@ perguntas = [
 
 {
     "pergunta": "Qual alimento é feito principalmente de milho?",
-    "alternativas": ["Pamonha", "Pizza", "Macarrão", "Feijoada", "Lasanha"],
+    "alternativas": ["Pamonha", "Pizza", "Lasanha", "Hambúrguer", "Macarrão"],
     "resposta": 1
 },
 
 {
     "pergunta": "Qual instrumento é muito usado no forró?",
-    "alternativas": ["Violino", "Acordeão", "Harpa", "Flauta", "Saxofone"],
+    "alternativas": ["Violino", "Acordeão", "Harpa", "Piano", "Saxofone"],
     "resposta": 2
+},
+
+{
+    "pergunta": "Qual cidade é conhecida por realizar o Maior São João do Mundo?",
+    "alternativas": ["Salvador", "Fortaleza", "Campina Grande", "Recife", "Natal"],
+    "resposta": 3
 },
 
 {
     "pergunta": "Qual destes é um doce típico das festas juninas?",
-    "alternativas": ["Brigadeiro", "Canjica", "Sorvete", "Pudim", "Mousse"],
-    "resposta": 2
-},
-
-{
-    "pergunta": "Qual cidade é famosa pelo 'Maior São João do Mundo'?",
-    "alternativas": ["Fortaleza", "Salvador", "Campina Grande", "Natal", "Recife"],
-    "resposta": 3
-},
-
-{
-    "pergunta": "Qual estado realiza a festa de Campina Grande?",
-    "alternativas": ["Ceará", "Pernambuco", "Bahia", "Paraíba", "Sergipe"],
-    "resposta": 4
-},
-
-{
-    "pergunta": "A quadrilha representa qual tipo de festa?",
-    "alternativas": ["Casamento caipira", "Carnaval", "Natal", "Réveillon", "Aniversário"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual roupa é típica das festas juninas?",
-    "alternativas": ["Terno", "Fantasia de super-herói", "Roupa caipira", "Kimono", "Roupa de praia"],
-    "resposta": 3
-},
-
-{
-    "pergunta": "Qual destes é um prato típico junino?",
-    "alternativas": ["Cuscuz", "Sushi", "Pizza", "Hambúrguer", "Lasanha"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual fruta é muito usada para fazer licor nas festas juninas?",
-    "alternativas": ["Banana", "Caju", "Maçã", "Pera", "Melancia"],
-    "resposta": 2
-},
-
-{
-    "pergunta": "Qual é a principal matéria-prima da canjica?",
-    "alternativas": ["Arroz", "Milho", "Feijão", "Mandioca", "Batata"],
-    "resposta": 2
-},
-
-{
-    "pergunta": "Quem costuma tocar sanfona no forró?",
-    "alternativas": ["Sanfoneiro", "Baterista", "Violinista", "Pianista", "DJ"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual destes faz parte do trio tradicional do forró?",
-    "alternativas": ["Bateria", "Guitarra", "Zabumba", "Violino", "Teclado"],
-    "resposta": 3
-},
-
-{
-    "pergunta": "Qual destes também faz parte do trio do forró?",
-    "alternativas": ["Triângulo", "Tamborim", "Violão", "Piano", "Harpa"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual cor é bastante usada na decoração junina?",
-    "alternativas": ["Coloridas", "Preto", "Cinza", "Marrom", "Branco"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "As bandeirinhas são usadas para:",
-    "alternativas": ["Decoração", "Comida", "Brincadeira", "Música", "Iluminação"],
+    "alternativas": ["Canjica", "Sorvete", "Pudim", "Gelatina", "Mousse"],
     "resposta": 1
 },
 
 {
     "pergunta": "Qual brincadeira é comum nas festas juninas?",
-    "alternativas": ["Pescaria", "Boliche", "Tênis", "Basquete", "Vôlei"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual brincadeira utiliza argolas?",
-    "alternativas": ["Corrida", "Jogo de Argolas", "Esconde-esconde", "Dominó", "Damas"],
-    "resposta": 2
-},
-
-{
-    "pergunta": "Qual desses alimentos é feito de amendoim?",
-    "alternativas": ["Paçoca", "Pão", "Pastel", "Pizza", "Cuscuz"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual bebida quente é comum nas festas juninas?",
-    "alternativas": ["Chocolate quente", "Café gelado", "Refrigerante", "Suco", "Água"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual destes é um símbolo das festas juninas?",
-    "alternativas": ["Bandeirinhas", "Árvore de Natal", "Coelho", "Abóbora", "Máscara"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual mês concentra as festas de São João?",
-    "alternativas": ["Janeiro", "Março", "Junho", "Agosto", "Outubro"],
-    "resposta": 3
-},
-
-{
-    "pergunta": "Qual desses artistas ficou conhecido como o Rei do Baião?",
-    "alternativas": ["Roberto Carlos", "Luiz Gonzaga", "Alceu Valença", "Fagner", "Gilberto Gil"],
-    "resposta": 2
-},
-
-{
-    "pergunta": "Qual ritmo foi popularizado por Luiz Gonzaga?",
-    "alternativas": ["Forró", "Samba", "Pagode", "Rock", "Rap"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual destes doces é típico do São João?",
-    "alternativas": ["Cocada", "Sorvete", "Bolo de chocolate", "Mousse", "Torta"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual destes alimentos também é típico das festas juninas?",
-    "alternativas": ["Milho cozido", "Batata frita", "Hambúrguer", "Pizza", "Lasanha"],
+    "alternativas": ["Pescaria", "Boliche", "Vôlei", "Tênis", "Basquete"],
     "resposta": 1
 },
 
 {
     "pergunta": "Como é chamada a dança organizada em pares nas festas juninas?",
-    "alternativas": ["Quadrilha", "Samba", "Frevo", "Carimbó", "Xote"],
-    "resposta": 1
-},
-
-{
-    "pergunta": "Qual personagem costuma aparecer no casamento da quadrilha?",
-    "alternativas": ["Noiva", "Super-herói", "Pirata", "Palhaço", "Soldado"],
+    "alternativas": ["Quadrilha", "Frevo", "Carimbó", "Pagode", "Samba"],
     "resposta": 1
 },
 
 {
     "pergunta": "Qual destes faz parte da decoração junina?",
-    "alternativas": ["Balões de papel", "Piscina", "Árvore de Natal", "Ovos de Páscoa", "Guarda-sol"],
+    "alternativas": ["Bandeirinhas", "Árvore de Natal", "Balões de festa", "Máscaras", "Ovos de Páscoa"],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Qual é o principal mês das festas juninas?",
+    "alternativas": ["Maio", "Junho", "Julho", "Agosto", "Setembro"],
+    "resposta": 2
+},
+
+# ==========================
+# INCLUSÃO
+# ==========================
+
+{
+    "pergunta": "O que significa inclusão?",
+    "alternativas": [
+        "Garantir que todas as pessoas possam participar",
+        "Separar grupos",
+        "Excluir pessoas",
+        "Criar diferenças",
+        "Ignorar necessidades"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Uma atitude inclusiva é:",
+    "alternativas": [
+        "Respeitar todas as pessoas",
+        "Fazer piadas ofensivas",
+        "Excluir colegas",
+        "Discriminar alguém",
+        "Ignorar quem precisa"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "A acessibilidade ajuda:",
+    "alternativas": [
+        "Todas as pessoas a participarem dos espaços",
+        "Apenas algumas pessoas",
+        "Somente crianças",
+        "Somente idosos",
+        "Ninguém"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Uma escola inclusiva é aquela que:",
+    "alternativas": [
+        "Recebe todos os alunos",
+        "Escolhe quem pode estudar",
+        "Separa os estudantes",
+        "Aceita apenas alguns",
+        "Não respeita diferenças"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "A Língua Brasileira de Sinais é conhecida como:",
+    "alternativas": ["LIBRAS", "Braille", "Morse", "Latim", "Tupi"],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Uma pessoa com deficiência deve ser tratada com:",
+    "alternativas": [
+        "Respeito e igualdade",
+        "Pena",
+        "Indiferença",
+        "Preconceito",
+        "Exclusão"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Incluir significa:",
+    "alternativas": [
+        "Dar oportunidade para todos participarem",
+        "Separar pessoas",
+        "Criar grupos fechados",
+        "Excluir opiniões",
+        "Escolher apenas alguns"
+    ],
+    "resposta": 1
+},
+
+# ==========================
+# DIVERSIDADE
+# ==========================
+
+{
+    "pergunta": "Diversidade significa:",
+    "alternativas": [
+        "Respeitar as diferenças entre as pessoas",
+        "Todos serem iguais",
+        "Excluir opiniões",
+        "Ter apenas uma cultura",
+        "Separar grupos"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "O Brasil é conhecido por possuir:",
+    "alternativas": [
+        "Grande diversidade cultural",
+        "Uma única cultura",
+        "Nenhuma tradição",
+        "Poucas culturas",
+        "Apenas cultura estrangeira"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Respeitar diferentes culturas significa:",
+    "alternativas": [
+        "Valorizar costumes diferentes",
+        "Criticar tradições",
+        "Proibir culturas",
+        "Fazer piadas",
+        "Ignorar diferenças"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Cada pessoa possui:",
+    "alternativas": [
+        "Características únicas",
+        "As mesmas opiniões",
+        "As mesmas habilidades",
+        "A mesma história",
+        "Os mesmos costumes"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "A diversidade torna a sociedade:",
+    "alternativas": [
+        "Mais rica em conhecimentos",
+        "Mais igual em tudo",
+        "Mais dividida",
+        "Sem cultura",
+        "Sem criatividade"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Conviver com pessoas diferentes nos ensina a:",
+    "alternativas": [
+        "Respeitar e aprender",
+        "Julgar",
+        "Excluir",
+        "Ignorar",
+        "Discriminar"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "A diversidade está presente:",
+    "alternativas": [
+        "Em todos os lugares",
+        "Somente nas escolas",
+        "Somente nas cidades",
+        "Somente no Brasil",
+        "Em poucos lugares"
+    ],
+    "resposta": 1
+},
+
+# ==========================
+# RESPEITO ÀS DIFERENÇAS
+# ==========================
+
+{
+    "pergunta": "Qual atitude demonstra respeito às diferenças?",
+    "alternativas": [
+        "Ouvir e respeitar opiniões diferentes",
+        "Fazer bullying",
+        "Excluir colegas",
+        "Discriminar pessoas",
+        "Espalhar preconceito"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Todas as pessoas merecem:",
+    "alternativas": [
+        "Respeito",
+        "Preconceito",
+        "Exclusão",
+        "Discriminação",
+        "Indiferença"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Quando alguém pensa diferente de você, o melhor é:",
+    "alternativas": [
+        "Respeitar a opinião",
+        "Brigar",
+        "Zombar",
+        "Ignorar",
+        "Ofender"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "O bullying é uma atitude:",
+    "alternativas": [
+        "Errada e desrespeitosa",
+        "Divertida",
+        "Educada",
+        "Correta",
+        "Necessária"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Ser gentil com as pessoas ajuda a criar:",
+    "alternativas": [
+        "Um ambiente acolhedor",
+        "Mais conflitos",
+        "Mais preconceito",
+        "Mais exclusão",
+        "Mais desrespeito"
+    ],
+    "resposta": 1
+},
+
+{
+    "pergunta": "Respeitar as diferenças contribui para:",
+    "alternativas": [
+        "Uma convivência melhor",
+        "Mais preconceito",
+        "Mais exclusão",
+        "Mais conflitos",
+        "Mais intolerância"
+    ],
     "resposta": 1
 }
 
