@@ -44,8 +44,55 @@ class QuizApp:
         self.perguntas_sorteadas = []
         self.botoes_opcoes = []
 
+        # self.montar_layout_base()
+        # self.iniciar_jogo()
+
         self.montar_layout_base()
-        self.iniciar_jogo()
+        self.mostrar_tela_inicial()
+
+    def mostrar_tela_inicial(self):
+        # Esconde tudo
+        self.top_row.pack_forget()
+        self.canvas_barra.pack_forget()
+        self.lbl_pergunta.pack_forget()
+        self.frame_opcoes.pack_forget()
+        self.lbl_feedback.pack_forget()
+        self.frame_final.pack_forget()
+
+        # Limpa o frame final
+        for widget in self.frame_final.winfo_children():
+            widget.destroy()
+
+        tk.Label(
+            self.frame_final,
+            text="🌽 Arraiá do Cumpadi Python 🌽",
+            font=self.font_titulo,
+            bg=COR_CARD,
+            fg=COR_BORDA
+        ).pack(pady=(50, 15))
+
+        tk.Label(
+            self.frame_final,
+            text="Teste seus conhecimentos sobre as festas juninas!",
+            font=self.font_subtitulo,
+            bg=COR_CARD,
+            fg=COR_SUBTITULO
+        ).pack(pady=(0, 30))
+
+        tk.Button(
+            self.frame_final,
+            text="▶ Iniciar Jogo",
+            font=self.font_opt,
+            bg=COR_BORDA,
+            fg="white",
+            relief="flat",
+            padx=20,
+            pady=10,
+            cursor="hand2",
+            command=self.iniciar_jogo
+        ).pack()
+
+        self.frame_final.pack(fill="both", expand=True)
 
     def montar_layout_base(self):
         tk.Label(
@@ -114,6 +161,7 @@ class QuizApp:
         self.idx = 0
         self.pontos = 0
         self.frame_final.pack_forget()
+        self.lbl_feedback.pack(pady=(10, 20))
         self.top_row.pack(fill="x", padx=20, pady=(20, 5))
         self.canvas_barra.pack(fill="x", padx=20, pady=(5, 15))
         self.lbl_pergunta.pack(fill="x", padx=20, pady=(0, 15), anchor="w")
@@ -258,12 +306,26 @@ class QuizApp:
             font=self.font_final_titulo, bg=COR_CARD, fg=COR_BORDA
         ).pack(pady=(0, 25))
 
+        # tk.Button(
+        #     self.frame_final, text="Jogar de novo",
+        #     font=self.font_opt, bg=COR_BORDA, fg="#fffaf0",
+        #     activebackground="#993c1d", relief="flat",
+        #     padx=20, pady=10, cursor="hand2",
+        #     command=self.iniciar_jogo
+        # ).pack()
+
         tk.Button(
-            self.frame_final, text="Jogar de novo",
-            font=self.font_opt, bg=COR_BORDA, fg="#fffaf0",
-            activebackground="#993c1d", relief="flat",
-            padx=20, pady=10, cursor="hand2",
-            command=self.iniciar_jogo
+            self.frame_final,
+            text="🏠 Voltar ao Menu",
+            font=self.font_opt,
+            bg=COR_BORDA,
+            fg="#fffaf0",
+            activebackground="#993c1d",
+            relief="flat",
+            padx=20,
+            pady=10,
+            cursor="hand2",
+            command=self.mostrar_tela_inicial
         ).pack()
 
         self.frame_final.pack(fill="both", expand=True)
