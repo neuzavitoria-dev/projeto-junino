@@ -1,7 +1,29 @@
 import random
+import time
+import msvcrt
 from perguntas import perguntas
 
 perguntas_sorteadas = random.sample(perguntas, 10)
+
+def resposta_com_tempo(segundos):
+    print(f"\nVocê tem {segundos} segundos para responder.")
+
+    inicio = time.time()
+    resposta = ""
+
+    while time.time() - inicio < segundos:
+        if msvcrt.kbhit():
+            tecla = msvcrt.getwch()
+
+            if tecla == "\r":  # Enter
+                print()
+                return resposta
+
+            resposta += tecla
+            print(tecla, end="", flush=True)
+
+    print("\n⏰ Tempo esgotado!")
+    return None
 
 pontos = 0
 
@@ -14,7 +36,13 @@ for perguntas in perguntas_sorteadas:
     for i, alternativa in enumerate(perguntas["alternativas"], start=1):
         print(f"{i} - {alternativa}")
 
-    resposta = int(input("digite sua resposta: "))
+    resposta = resposta_com_tempo(10)
+
+    if resposta is None:
+        print("❌ Você perdeu essa pergunta!")
+        continue
+
+    resposta = int(resposta)
 
     if resposta == perguntas["resposta"]:
         print("✅ Acertou! ")
